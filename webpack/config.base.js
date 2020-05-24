@@ -7,8 +7,8 @@ const resolve = str => path.resolve(__dirname, str)
 
 copyPluginConfig = [
   {
-      from: resolve('../src/favicon.png'),
-      to: resolve('../dist'),
+    from: resolve('../src/favicon.png'),
+    to: resolve('../dist'),
   },
 ]
 
