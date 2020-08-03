@@ -17,5 +17,9 @@ module.exports = {
     'comma-dangle': ['error', 'always-multiline'],
     'eol-last': ['error', 'always'],
     'no-trailing-spaces': 2,
+    'curly': ['error', 'all'],
+    'object-curly-spacing': ['error', 'always'],
+    'array-bracket-spacing': ['error', 'never'],
+    'max-len': ['error', { 'code': 80 }],
   },
 }
